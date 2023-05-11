@@ -72,7 +72,7 @@ const Header = () => {
                         <ul className="md:flex md:mr-28 md:font-semibold md:flex-row flex flex-col justify-center items-center  md:justify-between  md:bg-white bg-slate-900 md:text-slate-900 text-white md:text-xl text-xl">
                             <li className="flex"><a className="md:px-4 py-2  md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#">Home</a></li>
                             <li className="flex"><a className="md:px-4 py-2 md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#about" onClick={navHider}>About</a></li>
-                            <li className="flex"><a className="md:px-4 py-2 md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#">Skills</a></li>
+                            <li className="flex"><a className="md:px-4 py-2 md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#skill" onClick={navHider}>Skills</a></li>
                             <li className="flex"><a className="md:px-4 py-2 md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#">Works</a></li>
                             <li className="flex"><a className="md:px-4 py-2 md:py-4 md:text-xl md:hover:text-cyan-600 md:hover:underline md:underline-offset-8  md:w-full md:text-slate-900" href="#">Contact</a></li>
                         </ul>

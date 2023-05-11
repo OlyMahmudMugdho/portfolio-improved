@@ -6,7 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
 
     return (
-        <div id='about' className='flex flex-col justify-center items-center w-full'>
+        <div id='about' className='flex flex-col justify-center items-center min-w-full md:pt-10 bg-slate-50'>
             <div>
                 <h1 className='text-3xl  text-teal-700 font-bold md:text-5xl my-8 '>
                     <FontAwesomeIcon
