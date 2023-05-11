@@ -1,7 +1,7 @@
 import SingleSkill from "./Layout/SingleSkill";
 import ReactIcon from '../images/skills/ReactIcon.svg';
 import ExpressLogo from '../images/skills/ExpressLogo.svg';
-import NodeLogo from '../images/skills/NodeLogo.svg';
+import nodejsLogo2 from '../images/skills/nodejsLogo2.svg';
 import MongoLogo from '../images/skills/MongoLogo.svg';
 import tailwindLogo from '../images/skills/tailwindLogo.svg';
 import cLogo from '../images/skills/cLogo.svg';
@@ -33,7 +33,7 @@ const Skill = () => {
             <div className="bg-slate-100 flex flex-row flex-wrap  justify-center">
                 <SingleSkill imgName={ReactIcon} skillName={"React"} />
                 <SingleSkill imgName={ExpressLogo} skillName={"Express.js"} />
-                <SingleSkill imgName={NodeLogo} skillName={"Node.js"} />
+                <SingleSkill imgName={nodejsLogo2} skillName={"Node.js"} />
                 <SingleSkill imgName={MongoLogo} skillName={"MongoDB"} />
                 <SingleSkill imgName={tailwindLogo} skillName={"Tailwind CSS"} />
                 <SingleSkill imgName={cLogo} skillName={"C"} />
