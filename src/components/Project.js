@@ -10,7 +10,7 @@ const Project = (props) => {
                 <h1 className="text-center text-2xl font-bold text-emerald-800 my-2">
                     {props.title}
                 </h1>
-                <p>
+                <p className="text-lg md:text-base">
                     {props.body}
                 </p>
             </div>
