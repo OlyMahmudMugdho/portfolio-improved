@@ -8,13 +8,13 @@ import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 const Work = () => {
     return (
-        <div id="works" className="flex flex-col justify-center items-center w-full min-h-screen  bg-slate-100  md:px-20 pt-10 pb-10">
+        <div id="works" className="flex flex-col justify-center items-center w-full min-h-screen  bg-gray-50  md:px-20 pt-10 pb-10">
             <div className="w-full text-center">
                 <h1 className='text-3xl  text-teal-700 font-bold md:text-5xl md:mb-4 '>
                     <FontAwesomeIcon
                         icon={faLaptopCode}
                     />
-                    <span className='ml-3'>Feautured Projects</span>
+                    <span className='ml-3'>Featured Projects</span>
                 </h1>
             </div>
             <div className="w-full pt-10 flex md:flex-row flex-col md:flex-wrap justify-center items-center">

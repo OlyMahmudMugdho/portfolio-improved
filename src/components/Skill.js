@@ -18,10 +18,10 @@ import netlifyLogo from '../images/skills/netlifyLogo.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
-const Skill = () => {
+const Skill = () => {   
     return (
 
-        <div id="skill" className="flex flex-col justify-center items-center min-w-full md:pt-5 bg-slate-100  md:px-20">
+        <div id="skill" className="flex flex-col justify-center items-center min-w-full md:pt-5 bg-slate-100  md:px-20 pb-10 md-pb-20">
             <div>
                 <h1 className='text-3xl  text-teal-700 font-bold md:text-5xl my-8 '>
                     <FontAwesomeIcon
