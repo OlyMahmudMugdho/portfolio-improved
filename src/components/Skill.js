@@ -1,6 +1,6 @@
 import SingleSkill from "./Layout/SingleSkill";
 import ReactIcon from '../images/skills/ReactIcon.svg';
-import ExpressLogo from '../images/skills/ExpressLogo.svg';
+import ExpressJSDark from '../images/skills/ExpressJSDark.svg'
 import nodejsLogo2 from '../images/skills/nodejsLogo2.svg';
 import MongoLogo from '../images/skills/MongoLogo.svg';
 import tailwindLogo from '../images/skills/tailwindLogo.svg';
@@ -15,6 +15,7 @@ import gitLogo from '../images/skills/gitLogo.svg';
 import githubLogo from '../images/skills/githubLogo.svg';
 import supabaseLogo from '../images/skills/supabaseLogo.png';
 import netlifyLogo from '../images/skills/netlifyLogo.svg';
+import Linux from '../images/skills/Linux.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -32,7 +33,7 @@ const Skill = () => {
             </div>
             <div className="bg-slate-100 flex flex-row flex-wrap  justify-center">
                 <SingleSkill imgName={ReactIcon} skillName={"React"} />
-                <SingleSkill imgName={ExpressLogo} skillName={"Express.js"} />
+                <SingleSkill imgName={ExpressJSDark} skillName={"Express.js"} />
                 <SingleSkill imgName={nodejsLogo2} skillName={"Node.js"} />
                 <SingleSkill imgName={MongoLogo} skillName={"MongoDB"} />
                 <SingleSkill imgName={tailwindLogo} skillName={"Tailwind CSS"} />
@@ -47,6 +48,7 @@ const Skill = () => {
                 <SingleSkill imgName={githubLogo} skillName={"GitHub"} />
                 <SingleSkill imgName={supabaseLogo} skillName={"SupaBase"} />
                 <SingleSkill imgName={netlifyLogo} skillName={"Netlify"} />
+                <SingleSkill imgName={Linux} skillName={"Linux"} />
             </div>
         </div>
     )
