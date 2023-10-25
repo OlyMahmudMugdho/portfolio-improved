@@ -1,4 +1,5 @@
 import Project from "./Project";
+import pixl from "../images/projects/pixl.png";
 import icePust from '../images/projects/icePust.png';
 import todo from '../images/projects/todo.png';
 import weatherRender from '../images/projects/weatherRender.png';
@@ -18,28 +19,15 @@ const Work = () => {
                 </h1>
             </div>
             <div className="w-full pt-10 flex md:flex-row flex-col md:flex-wrap justify-center items-center">
-                <Project
-                    imgName={icePust}
-                    title={"PUST ICE Website"}
-                    body={"Website of Department of Information & Communication Engineering, Pabna University of Science & Technology"}
-                    liveUrl={"https://ice-pust.netlify.app/"}
-                    sourceCode={"https://github.com/OlyMahmudMugdho/ice-pust-website"}
-                />
 
                 <Project
-                    imgName={todo}
-                    title={"To-Do"}
-                    body={"Simple To-Do list app using JavaScript that uses Local Storage to save data"}
-                    liveUrl={"https://todo-app-olymahmud.netlify.app/"}
-                    sourceCode={"https://github.com/OlyMahmudMugdho/todo-app-vanilla-js"}
-                />
-
-                <Project
-                    imgName={weatherRender}
-                    title={"Weather Render"}
-                    body={"Weather app using vanilla JavaScript with fetch API"}
-                    liveUrl={"https://weather-render.netlify.app/"}
-                    sourceCode={"https://github.com/OlyMahmudMugdho/weather-render"}
+                    imgName={pixl}
+                    title={"Pixl"}
+                    body={"pixl is a photo sharing app made using MERN stack."}
+                    extra1={"Backend : Node.js, Express, Mongo DB"}
+                    extra2={"Frontend : React, Redux, Tailwind CSS"}
+                    liveUrl={"https://pixl-react.netlify.app/"}
+                    sourceCode={"https://github.com/OlyMahmudMugdho/pixl"}
                 />
 
                 <Project
@@ -49,6 +37,35 @@ const Work = () => {
                     liveUrl={"https://react-blog-olymahmud.netlify.app/"}
                     sourceCode={"https://github.com/OlyMahmudMugdho/blog"}
                 />
+
+                <Project
+                    imgName={weatherRender}
+                    title={"Weather Render"}
+                    body={"Weather app using vanilla JavaScript with fetch API"}
+                    liveUrl={"https://weather-render.netlify.app/"}
+                    sourceCode={"https://github.com/OlyMahmudMugdho/weather-render"}
+                />
+                <Project
+                    imgName={todo}
+                    title={"To-Do"}
+                    body={"Simple To-Do list app using JavaScript that uses Local Storage to save data"}
+                    liveUrl={"https://todo-app-olymahmud.netlify.app/"}
+                    sourceCode={"https://github.com/OlyMahmudMugdho/todo-app-vanilla-js"}
+                />
+
+                <Project
+                    imgName={icePust}
+                    title={"PUST ICE Website"}
+                    body={"Website of Department of Information & Communication Engineering, Pabna University of Science & Technology"}
+                    liveUrl={"https://ice-pust.netlify.app/"}
+                    sourceCode={"https://github.com/OlyMahmudMugdho/ice-pust-website"}
+                />
+
+
+
+
+
+
 
             </div>
         </div>
