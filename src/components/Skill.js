@@ -18,6 +18,7 @@ import netlifyLogo from '../images/skills/netlifyLogo.svg';
 import Linux from '../images/skills/Linux.png';
 import postgresql from "./../images/skills/postgresql.svg";
 import csharp from "./../images/skills/csharp.svg";
+import typescript from "./../images/skills/typescript.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -45,6 +46,7 @@ const Skill = () => {
                 <SingleSkill imgName={csharp} skillName={"C#"} />
                 <SingleSkill imgName={pythonLogo} skillName={"Python"} />
                 <SingleSkill imgName={jsLogo} skillName={"JavaScript"} />
+                <SingleSkill imgName={typescript} skillName={"TypeScript"} />
                 <SingleSkill imgName={htmlLogo} skillName={"HTML"} />
                 <SingleSkill imgName={cssLogo} skillName={"CSS"} />
                 <SingleSkill imgName={gitLogo} skillName={"Git"} />

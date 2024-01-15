@@ -3,11 +3,11 @@
 const Project = (props) => {
 
     return (
-        <div className="flex flex-col md:w-56 lg:w-3/12 md:mx-10 mx-3 my-3 md:my-5 border border-solid rounded-md border-zinc-300 bg-white">
+        <div className="flex flex-col project-item md:w-56 lg:w-3/12 md:mx-10 mx-3 my-3 md:my-5 border border-solid rounded-sm border-slate-800  bg-white">
             <div className="w-full">
                 <img src={props.imgName} alt="name of the project" className="h-36 w-full" />
             </div>
-            <div className="py-2 h-44 lg:pl-2">
+            <div className="py-2 work-desc h-40 lg:pl-2 w-full px-1">
                 <h1 className="text-center text-xl font-bold text-emerald-800 my-2">
                     {props.title}
                 </h1>

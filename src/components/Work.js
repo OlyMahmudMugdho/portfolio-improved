@@ -23,9 +23,8 @@ const Work = () => {
                 <Project
                     imgName={pixl}
                     title={"Pixl"}
-                    body={"pixl is a photo sharing app made using MERN stack."}
-                    extra1={"Backend : Node.js, Express, Mongo DB"}
-                    extra2={"Frontend : React, Redux, Tailwind CSS"}
+                    body={"pixl is a photo sharing app made using MERN stack. Tech used : Express.js, Mongo DB, React, Redux"}
+                    extra1={" "}
                     liveUrl={"https://pixl-mern.netlify.app/"}
                     sourceCode={"https://github.com/OlyMahmudMugdho/instagram"}
                 />
