@@ -18,6 +18,7 @@ import netlifyLogo from '../images/skills/netlifyLogo.svg';
 import Linux from '../images/skills/Linux.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import postgresql from "./../images/skills/postgresql.svg"
 
 const Skill = () => {   
     return (
@@ -49,6 +50,7 @@ const Skill = () => {
                 <SingleSkill imgName={supabaseLogo} skillName={"SupaBase"} />
                 <SingleSkill imgName={netlifyLogo} skillName={"Netlify"} />
                 <SingleSkill imgName={Linux} skillName={"Linux"} />
+                <SingleSkill imgName={postgresql} skillName={"PostgreSQL"} />
             </div>
         </div>
     )
