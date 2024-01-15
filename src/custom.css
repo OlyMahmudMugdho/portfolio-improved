@@ -13,6 +13,21 @@
     animation: 1s linear 1s  running slidein;
 }
 
+.single-skill:hover {
+    background-color: #3D3B40;
+    transition: 0.5s;
+}
+
+.single-skill:hover .skill-name {
+    color: #f3f3ec;
+    transition: 0.5s;
+}
+
+.single-skill {
+    background-color: #c2e2e5;
+    border: 2px solid;
+}
+
 
 /* .social-btn a{
     background-color: black;
