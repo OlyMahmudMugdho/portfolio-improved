@@ -5,9 +5,9 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
-        <div id="contact" className="flex flex-col  items-center w-full min-h-screen pt-20 md:px-20 ">
+        <div id="contact" className="flex flex-col  items-center w-full min-h-screen pt-20 md:px-20 bg-zinc-900">
             <div className="w-full text-center">
-                <h1 className='text-3xl  text-teal-700 font-bold md:text-5xl md:mb-4 '>
+                <h1 className='text-3xl  text-teal-500 font-bold md:text-5xl md:mb-4 '>
                     <FontAwesomeIcon
                         icon={faMessage}
                     />
