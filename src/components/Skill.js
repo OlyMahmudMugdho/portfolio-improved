@@ -16,9 +16,10 @@ import githubLogo from '../images/skills/githubLogo.svg';
 import supabaseLogo from '../images/skills/supabaseLogo.png';
 import netlifyLogo from '../images/skills/netlifyLogo.svg';
 import Linux from '../images/skills/Linux.png';
+import postgresql from "./../images/skills/postgresql.svg";
+import csharp from "./../images/skills/csharp.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import postgresql from "./../images/skills/postgresql.svg"
 
 const Skill = () => {   
     return (
@@ -41,6 +42,7 @@ const Skill = () => {
                 <SingleSkill imgName={cLogo} skillName={"C"} />
                 <SingleSkill imgName={cppLogo} skillName={"C++"} />
                 <SingleSkill imgName={javaLogo} skillName={"Java"} />
+                <SingleSkill imgName={csharp} skillName={"C#"} />
                 <SingleSkill imgName={pythonLogo} skillName={"Python"} />
                 <SingleSkill imgName={jsLogo} skillName={"JavaScript"} />
                 <SingleSkill imgName={htmlLogo} skillName={"HTML"} />
