@@ -27,7 +27,7 @@ const Home = () => {
               </div>
             </h3>
 
-            <a href="https://docs.google.com/document/d/1o2gda3FtK4Sxap-vFgcPEb6XWAijBZvlLKtWshV6_Z0/edit?usp=sharing" className=' md:mt-3 bg-red-500 text-lg md:text-xl py-2 px-2 border rounded-lg text-white ' target='_blank' rel='noopener noreferrer'>Download Resume</a>
+            <a href="https://drive.google.com/file/d/1eGpNNmwOgcZ36HREFK8Aw-T7g0qb_IaQ/view?usp=sharing" className=' md:mt-3 bg-red-500 text-lg md:text-xl py-2 px-2 border rounded-lg text-white ' target='_blank' rel='noopener noreferrer'>Download Resume</a>
             <ul className='social-btn text-xl font-bold my-4 flex'>
               <li className='flex flex-row justify-center items-center md:my-4'><a href="https://www.linkedin.com/in/m-oly-mahmud-mugdho/" target="_blank" rel="noopner noreferrer" className='py-2 px-3 bg-slate-900 text-cyan-400 hover:text-white hover:bg-black mr-2 border rounded-xl'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
               <li className='flex flex-row justify-center items-center md:my-4'><a href="https://twitter.com/m_oly_mahmud" target="_blank" rel="noopner noreferrer" className='py-2 px-3 bg-slate-900 text-cyan-400 hover:text-white hover:bg-black mr-2 border rounded-xl'><FontAwesomeIcon icon={faTwitter} /></a></li>
