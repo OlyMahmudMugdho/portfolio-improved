@@ -23,7 +23,7 @@ const Work = () => {
                 <Project
                     imgName={imsSpringMvc}
                     title={"Inventory Management System"}
-                    body={"Inventory Management System made using Java, Spring Boot, Spring MVC, Thymeleaf, Spring Data JPA, Spring Security"}
+                    body={"made using Java, Spring Boot, Spring MVC, Thymeleaf, Spring Data JPA, Spring Security"}
                     extra1={""}
                     liveUrl={"https://ims-spring-mvc-olymahmud-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/"}
                     sourceCode={"https://github.com/OlyMahmudMugdho/inventory-management-system"}
