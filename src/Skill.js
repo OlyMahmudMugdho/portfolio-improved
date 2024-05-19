@@ -19,6 +19,7 @@ import Linux from '../images/skills/Linux.png';
 import postgresql from "./../images/skills/postgresql.svg";
 import csharp from "./../images/skills/csharp.svg";
 import typescript from "./../images/skills/typescript.svg";
+import spring from "./../images/skills/spring.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -35,6 +36,7 @@ const Skill = () => {
                 </h1>
             </div>
             <div className="bg-slate-100 flex flex-row flex-wrap  justify-center">
+                <SingleSkill imgName={spring} skillName={"Spring Framework"} />
                 <SingleSkill imgName={ReactIcon} skillName={"React"} />
                 <SingleSkill imgName={ExpressJSDark} skillName={"Express.js"} />
                 <SingleSkill imgName={nodejsLogo2} skillName={"Node.js"} />
