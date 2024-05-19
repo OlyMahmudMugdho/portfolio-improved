@@ -4,6 +4,7 @@ import icePust from '../images/projects/icePust.png';
 import todo from '../images/projects/todo.png';
 import weatherRender from '../images/projects/weatherRender.png';
 import blog from '../images/projects/blog.png';
+import imsSpringMvc from '../images/projects/imsSpringMvc.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,6 +20,14 @@ const Work = () => {
                 </h1>
             </div>
             <div className="w-full pt-10 flex md:flex-row flex-col md:flex-wrap justify-center items-center">
+                <Project
+                    imgName={imsSpringMvc}
+                    title={"Inventory Management System"}
+                    body={"Inventory Management System made using Java, Spring Boot, Spring MVC, Thymeleaf, Spring Data JPA, Spring Security"}
+                    extra1={""}
+                    liveUrl={"https://ims-spring-mvc-olymahmud-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/"}
+                    sourceCode={"https://github.com/OlyMahmudMugdho/inventory-management-system"}
+                />
 
                 <Project
                     imgName={pixl}
